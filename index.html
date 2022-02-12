@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricStore | Products </title>
+    <link rel="stylesheet" href="https://apex-ui.netlify.app/components/components.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-wrapper">
+            <div class="ecom-title">
+                <a href="#" class="ecom-name">CricStore</a>
+            </div>
+            <!-- Search Functionality -->
+            <div class="search-container">
+                <i class="fa fa-search"></i>
+                <input type="text" class="search-bar" aria-hidden="true" placeholder="Search">
+            </div>
+            <!-- User profile image , Wishlist and Cart Access -->
+            <div class="user-activity-details">
+                <a href="#"> <img src="assets/profile.png" class="apex-avatar avatar-round-sm" alt=""></a>
+                <div class="badges">
+                    <a href="#"><div class="icon wishlist-icon far fa-heart"></div></a> 
+                    <span class="badge-count badge-count-right badge-circle-blue">4</span>
+                </div>
+                <div class="badges">
+                    <a href="#"><div class="icon wishlist-icon fas fa-shopping-cart"></div></a> 
+                    <span class="badge-count badge-count-right badge-circle-orange">4</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+    <div class="main-wrapper">
+        <aside class="sidebar">
+            <div class="product-filter">
+                <h3>Filter</h3>
+                <a href=""><h3>Clear</h3></a>
+            </div>
+            <!-- Filter by price -->
+            <div class="filter-by-price">
+                <div class="slider-wrapper">
+                    <input type="range" class="slider" min="0" max="100">
+                    <h3 class="slider-value">50</h3>
+                </div>
+            </div>
+            <!-- Filter by Category -->
+            <div class="product-category">
+                <h3 class="filter-feature">Category</h3>
+                <div class="categories">
+                    <label class="input-select">
+                        <input type="checkbox" class="checkbox-input">
+                        <span>Category 1</span>
+                    </label>
+                    <label class="input-select">
+                        <input type="checkbox" class="checkbox-input">
+                        <span>Category 2</span>
+                    </label>
+                    <label class="input-select">
+                        <input type="checkbox" class="checkbox-input">
+                        <span>Category 3</span>
+                    </label>
+                </div>
+            </div>
+            <!-- Filter by ratings -->
+            <div class="product-rating">
+                <h3 class="filter-feature">Ratings</h3>
+                <div class="categories">
+                    <label class="input-select">
+                        <input type="radio" class="radio-input1" name="rating">
+                        <span>4 stars & above</span>
+                    </label>
+                    <label class="input-select">
+                        <input type="radio" class="radio-input1" name="rating">
+                        <span>3 stars & above</span>
+                    </label>
+                    <label class="input-select">
+                        <input type="radio" class="radio-input1" name="rating">
+                        <span>2 stars & above</span>
+                    </label>
+                    <label class="input-select">
+                        <input type="radio" class="radio-input1" name="rating">
+                        <span>1 stars & above</span>
+                    </label>
+                </div>
+            </div>
+            <!-- Sort by price -->
+            <div class="product-sort">
+                <h3 class="filter-feature">Sort</h3>
+                <div class="categories">
+                    <label class="input-select">
+                        <input type="radio" class="radio-input" name="sort-price">
+                        <span>Price - Low to High</span>
+                    </label>
+                    <label class="input-select">
+                        <input type="radio" class="radio-input" name="sort-price">
+                        <span>Price - High to Low</span>
+                    </label>
+                </div>
+            </div>
+        </aside>
+        <!-- Various lists of products -->
+        <div class="products-list">
+            <h2>Available Products</h2>
+            <div class="all-products">
+                <div class="basic-vertical-card">
+                    <div class="card-image-container">
+                        <img src="assets/helmet.jpeg" class="card-image" alt="">
+                    </div>
+                    <span class="card-badge">BestSeller</span>
+                
+                    <div class="card-details">
+                        <div class="card-product-name">
+                            <div class="product-name">Blaze Cricket Helmet</div>
+                            <div class="product-details">Navy Blue</div>
+                        </div>
+                        <i class="icon card-icon far fa-heart"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="discounted-price">₹1,100</span>
+                        <span class="actual-price">₹1,149</span>
+                        <span class="product-discount">(4% OFF)</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="apex-btn apex-cart-btn card-btn fa fa-shopping-cart">Add to Cart</button>
+                    </div>
+                </div>
+                		<!-- Basic Vertical Card -->
+                <div class="basic-vertical-card card-width">
+                    <div class="card-image-container">
+                        <img src="assets/card-bat.jpg" class="card-image" alt="">
+                    </div>
+                    <div class="card-details">
+                        <div class="card-product-name">
+                            <div class="product-name">Kookaburra Bat</div>
+                            <div class="product-details">Verve 60 Kashmir Willow</div>
+                        </div>
+                        <i class="icon card-icon far fa-heart"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="discounted-price">₹1,590</span>
+                        <span class="actual-price">₹2,850</span>
+                        <span class="product-discount">(44% OFF)</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="apex-btn apex-cart-btn card-btn fa fa-shopping-cart">Add to Cart</button>
+                    </div>
+                </div>
+                		<!-- Basic Vertical Card -->
+                <div class="basic-vertical-card">
+                    <div class="card-image-container">
+                        <img src="assets/gloves.jpeg" class="card-image" alt="">
+                    </div>
+                    <div class="card-details">
+                        <div class="card-product-name">
+                            <div class="product-name"> RH Batting Gloves</div>
+                            <div class="product-details">Grey,White,Red</div>
+                        </div>
+                        <i class="icon card-icon far fa-heart"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="discounted-price">₹849</span>
+                        <span class="actual-price">₹919</span>
+                        <span class="product-discount">(7% OFF)</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="apex-btn apex-cart-btn card-btn fa fa-shopping-cart">Add to Cart</button>
+                    </div>
+                </div>
+                		<!-- Basic Vertical Card -->
+                <div class="basic-vertical-card">
+                    <div class="card-image-container">
+                        <img src="assets/pink-ball.jpeg" class="card-image" alt="">
+                    </div>
+                
+                    <div class="card-details">
+                        <div class="card-product-name">
+                            <div class="product-name">Kookaburra Turf Pink Ball</div>
+                            <div class="product-details">Pink Leather Ball</div>
+                        </div>
+                        <i class="icon card-icon far fa-heart"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="discounted-price">₹879</span>
+                        <span class="actual-price"></span>
+                        <span class="product-discount"></span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="apex-btn apex-cart-btn card-btn fa fa-shopping-cart">Add to Cart</button>
+                    </div>
+                </div>
+                		<!-- Basic Vertical Card -->
+                <div class="basic-vertical-card">
+                    <div class="card-image-container">
+                        <img src="assets/arm-guard.jpeg" class="card-image" alt="">
+                    </div>
+                    <span class="card-badge">BestSeller</span>  
+                    <div class="card-details">
+                        <div class="card-product-name">
+                            <div class="product-name">Arm Guard</div>
+                            <div class="product-details">White</div>
+                        </div>
+                        <i class="icon card-icon far fa-heart"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="discounted-price">₹289</span>
+                        <span class="actual-price">₹299</span>
+                        <span class="product-discount">(3% OFF)</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="apex-btn apex-cart-btn card-btn fa fa-shopping-cart">Add to Cart</button>
+                    </div>
+                </div>
+                		<!-- Basic Vertical Card -->
+                <div class="basic-vertical-card">
+                    <div class="card-image-container">
+                        <img src="assets/batting-pad.jpeg" class="card-image" alt="">
+                    </div>
+                    <div class="card-details">
+                        <div class="card-product-name">
+                            <div class="product-name">Batting Pad</div>
+                            <div class="product-details">White</div>
+                        </div>
+                        <i class="icon card-icon far fa-heart"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="discounted-price">₹1,508</span>
+                        <span class="actual-price">₹1,999</span>
+                        <span class="product-discount">(24% OFF)</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="apex-btn apex-cart-btn card-btn fa fa-shopping-cart">Add to Cart</button>
+                    </div>
+                </div>
+                		<!-- Basic Vertical Card -->
+                <div class="basic-vertical-card">
+                    <div class="card-image-container">
+                        <img src="assets/sg-bat-1.jpg" class="card-image" alt="">
+                    </div>
+                    <span class="card-badge">BestSeller</span>
+                    <div class="card-details">
+                        <div class="card-product-name">
+                            <div class="product-name">SG Players Edition</div>
+                            <div class="product-details">English Willow</div>
+                        </div>
+                        <i class="icon card-icon far fa-heart"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="discounted-price">₹2,459</span>
+                        <span class="actual-price">₹2,999</span>
+                        <span class="product-discount">(18% OFF)</span>
+                    </div>
+                    <div class="card-actions">
+                        <button class="apex-btn apex-cart-btn card-btn fa fa-shopping-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
