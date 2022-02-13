@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricStore | Login</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://apex-ui.netlify.app/components/components.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-wrapper">
+            <div class="ecom-title">
+                <a href="../index.html" class="ecom-name">CricStore</a>
+            </div>
+            <!-- Search Functionality -->
+            <div class="search-container">
+                <i class="fa fa-search"></i>
+                <input type="text" class="search-bar" aria-hidden="true" placeholder="Search">
+            </div>
+            <!-- User profile image , Wishlist and Cart Access -->
+            <div class="user-activity-details">
+                <a href="login.html"> <img src="../assets/profile.png" class="apex-avatar avatar-round-sm" alt=""></a>
+                <div class="badges">
+                    <a href="#"><div class="icon wishlist-icon far fa-heart"></div></a> 
+                    <span class="badge-count badge-count-right badge-circle-blue">4</span>
+                </div>
+                <div class="badges">
+                    <a href="#"><div class="icon wishlist-icon fas fa-shopping-cart"></div></a> 
+                    <span class="badge-count badge-count-right badge-circle-orange">4</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="login-wrapper">
+        
+        <div class="login">
+            <h1>Login</h1>
+            <div class="login-credentials">
+                <div class="email">
+                    <label for="">Email Address</label> 
+                    <input type="email" class="email-validate" placeholder="Enter Valid Email ID">
+                </div>
+                <div class="password">
+                    <label for="">Password</label> 
+                    <input type="password" class="pswrd-validate">
+                </div>
+                <div class="reset-details">
+                    <div>
+                        <input type="checkbox" class="checkbox">Remember Me
+                    </div>
+                    
+                    <a href="" class="forgot-pswrd-link">Forget your Password?</a>
+                </div>
+                <button class="login-btn">Login</button>
+                <a href="signup.html" class="have-account-link">Create new Account?</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
