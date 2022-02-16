@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricStore | Cart </title>
+    <link rel="stylesheet" href="https://apex-ui.netlify.app/components/components.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../authentication/auth.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-wrapper">
+            <div class="ecom-title">
+                <a href="../index.html" class="ecom-name">CricStore</a>
+            </div>
+            <!-- Search Functionality -->
+            <div class="search-container">
+                <i class="fa fa-search"></i>
+                <input type="text" class="search-bar" aria-hidden="true" placeholder="Search">
+            </div>
+            <!-- User profile image , Wishlist and Cart Access -->
+            <div class="user-activity-details">
+                <a href="../authentication/login.html"> <img src="../assets/profile.png" class="apex-avatar avatar-round-sm" alt=""></a>
+                <div class="badges">
+                    <a href="../wishlist/wishlist.html"><div class="icon wishlist-icon far fa-heart"></div></a> 
+                    <span class="badge-count badge-count-right badge-circle-blue">4</span>
+                </div>
+                <div class="badges">
+                    <a href="../cart/cart.html"><div class="icon wishlist-icon fas fa-shopping-cart"></div></a> 
+                    <span class="badge-count badge-count-right badge-circle-orange">4</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="cart-items-wrapper">
+        <h2>Cart</h2>
+        <div class="display-items">
+            
+            <div class="all-cart-products">
+                
+                <div class="horizontal-card">
+                    <div class="horizontal-image-container">
+                        <img src="../assets/sg-bat-1.jpg" class="horizontal-card-image" alt="">
+                    </div>
+                    <div class="card-data">
+                        <div class="card-details-horizontal">
+                            <div class="card-product-name">
+                                <div class="product-name">SG Players Edition</div>
+                                <div class="product-details">English Willow</div>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <span class="discounted-price">₹2,919</span>
+                            <span class="actual-price">₹3,999</span>
+                            <span class="product-discount">(27% OFF)</span>
+                        </div>
+                        <div class="card-actions">
+                            <button class="apex-btn apex-cart-btn card-btn remove-btn"><i class="delete-cart-item far fa-trash-alt"></i>Remove</button>
+                            
+
+                            <button class="apex-btn apex-cart-btn card-btn wishlist-btn"> <i class="add-cart-item-to-wishlist far fa-heart"></i>Add to Wishlist</button>
+                        </div>
+                    </div>
+                </div>  
+                <div class="horizontal-card">
+                    <div class="horizontal-image-container">
+                        <img src="../assets/gloves.jpeg" class="horizontal-card-image" alt="">
+                    </div>
+                    <div class="card-data">
+                        <div class="card-details-horizontal">
+                            <div class="card-product-name">
+                                <div class="product-name">RH Batting Gloves</div>
+                                <div class="product-details">Grey , White , Red</div>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <span class="discounted-price">₹849</span>
+                            <span class="actual-price">₹919</span>
+                            <span class="product-discount">(7% OFF)</span>
+                        </div>
+                        <div class="card-actions">
+                            <button class="apex-btn apex-cart-btn card-btn remove-btn"><i class="delete-cart-item far fa-trash-alt"></i>Remove</button>
+                            <button class="apex-btn apex-cart-btn card-btn wishlist-btn"> <i class="add-cart-item-to-wishlist far fa-heart"></i>Add to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Price -->
+            <div class="order-wrapper">
+                <div class="order-details">
+                    <h3>Order Details</h3>
+                    <div class="order-price">
+                         <div>
+                             <p>Price (2 items)</p>  
+                             <p>Rs.3,768</p> 
+                        </div>
+                         <div>
+                             <p>Discount</p>  
+                             <p>-Rs.399</p>
+                        </div>
+                         <div>
+                            <p>Delivery Charges</p>  
+                            <p>-FREE</p>
+                        </div>
+                        <div>
+                            <p>Coupon Discount</p>  
+                            <p>-Rs.199</p>
+                        </div>
+                        <div class="total-amount">
+                            <p>Tota Amount</p> 
+                            <p>-Rs.3,170</p>
+                        </div>
+                    </div>
+                    <button class="login-btn">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
