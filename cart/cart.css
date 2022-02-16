@@ -1,6 +1,7 @@
 :root{
     --wishlist-btn-hover : #5c5cf7;
     ---grey-border : grey;
+    --heading-font : bolder;
 }
 .cart-items-wrapper{
     margin-top: 15vh;
@@ -58,7 +59,7 @@ h2{
     margin: 2.5rem;
 }
 h3{
-    font-weight: bolder;
+    font-weight: var(--heading-font);
     padding: 8px;
     border-bottom: 1px solid var(---grey-border);
 }
