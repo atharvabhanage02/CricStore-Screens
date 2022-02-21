@@ -45,6 +45,7 @@ body{
 .user-activity-details{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 10px;
 }
 /* Page Wrapper */
