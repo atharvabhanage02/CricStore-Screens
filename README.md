@@ -13,11 +13,13 @@
    - WishList Page 
       - Every item will have Add to Cart 
       - Remove from WishList
+      - Logout Button
       
 ![Screenshot (592)](https://user-images.githubusercontent.com/90499683/154960662-e14b3d83-ff2c-4736-a4c4-6a149c1aaa31.png)
    - Cart Page
       - Every item will have Remove 
       - Add to WishList
+      - Logout Button
       
 ![Screenshot (593)](https://user-images.githubusercontent.com/90499683/154960669-89a4d649-2029-429f-9132-d53a2b4faaa5.png)
    - Login Page
