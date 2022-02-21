@@ -1,4 +1,5 @@
 # CricStore
+[Live Demo](https://cricstore.netlify.app/)
 ## Shop with Quality and Trust 
 
 - Pages
